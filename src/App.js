@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "http://localhost:8000/todos";
-
+//const API = "http://localhost:8000/todos";
+const API = "https://your-railway-url.up.railway.app/todos";
 export default function App() {
   const [todos, setTodos] = useState([]);
   const [title, setTitle] = useState("");
